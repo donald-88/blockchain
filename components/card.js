@@ -32,8 +32,8 @@ function getData(val){
           <Textfield name="Nonce"/>
 
 
-            <label className="relative block p-2 border-2 border-black rounded-lg" for="name">
-              <span className="text-xs font-medium text-black" for="name">
+            <label className="relative block p-2 border-2 border-black rounded-lg">
+              <span className="text-xs font-medium text-black">
               </span>
               <input className="w-full bg-green p-0 text-sm placeholder-black border-none focus:outline-none" id="name" type="text" placeholder="100" onChange={getData} />
             </label>

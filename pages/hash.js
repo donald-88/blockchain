@@ -30,15 +30,15 @@ const Hash = (props) =>{
 
 
 
-              <label className="relative block p-2 border-2 border-black rounded-lg" for="name">
-                <span className="text-xs font-medium text-black" for="name">
+              <label className="relative block p-2 border-2 border-black rounded-lg">
+                <span className="text-xs font-medium text-black">
                   {props.name}
                 </span>
-                <input className="w-full bg-green p-0 text-sm placeholder-black border-none focus:ring-0" id="name" type="text" placeholder="Enter Data" onChange={getData} />
+                <input className="w-full bg-green p-0 text-sm placeholder-black border-none focus:outline-none" id="name" type="text" placeholder="Enter Data" onChange={getData} />
               </label>
 
 
-              <span className="h-10 w-full border-2 border-black mt-4 rounded-lg">{data}</span>
+              <span className="h-10 w-full flex items-center px-2 border-2 border-black mt-4 rounded-lg">{data}</span>
             </div>
           </div>
         </a>
