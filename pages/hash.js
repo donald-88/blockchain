@@ -16,7 +16,7 @@ const Hash = (props) =>{
       <Navbar/>
       <div className="flex justify-evenly items-center w-full h-screen">
         <a className="relative block group h-3/5">
-          <span class="absolute inset-0 border-2 border-green border-dashed"></span>
+          <span className="absolute inset-0 border-2 border-green border-dashed"></span>
 
           <div
             className="relative flex items-center justify-center h-full transition-transform transform bg-green border-2 border-black group-hover:-translate-x-2 group-hover:-translate-y-2">
